@@ -29,7 +29,10 @@
         }
     ],
     "dependencies": {
-        "node-red": "2.0.3"
+        "node-red": "^2.0.3",
+        "node-red-contrib-mysensors": "^3.3.1",
+        "node-red-node-serialport": "^0.14.1",
+        "node-red-dashboard": "*"
     },
     "engines": {
         "node": ">=12"
